@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link type="text/css" rel="stylesheet" href="CSS/index.css">
+  <link type="text/css" rel="stylesheet" href="CSS/login.css">
+
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+</head>
+
+<body>
+  <div id="container">
+    <!-- <header id="header">
+      <div class="gnb">
+        <div class="site">
+          <ul class="site_list">
+            <li class="site_item"><a href="#" target="_blank" title="새창">아산시청</a></li>
+            <li class="site_item"><a href="#" target="_blank" title="새창">통합예약</a></li>
+            <li class="site_item"><a href="#" target="_blank" title="새창">문화관광</a></li>
+            <li class="site_item"><a href="#" target="_blank" title="새창">일자리</a></li>
+            <li class="site_item"><a href="#" target="_blank" title="새창">시의회</a></li>
+          </ul>
+        </div>
+        <div class="link">
+          <ul class="link_list">
+            <li class="user_item"><a href="login.html">로그인</a></li>
+            <li class="user_item"><a href="signup.html">회원가입</a></li>
+            <li class="ft_change">
+              <span class="title">글자크기</span>
+              <ul class="buttonlist">
+                <li class="plus"><button type="button">확대</button></li>
+                <li class="minus"><button type="button">축소</button></li>
+                <li class="return"><button type="button">되돌리기</button></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="home">
+        <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+        <div class="search">
+          <form class="search_form">
+            <input class="search_input" type="search" placeholder="검색어를 입력해주세요.">
+            <button class="search_button" type="submit" value="">검색</button>
+          </form>
+          <div class="search_list_wrap">
+            <ul class="search_list">
+              <li class="search_item"><a href="#">미분양</a></li>
+              <li class="search_item"><a href="#">평생학습센터</a></li>
+              <li class="search_item"><a href="#">공개모집공고</a></li>
+              <li class="search_item"><a href="#">대학생</a></li>
+              <li class="search_item"><a href="#">행정조직도</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="weather">
+          <div class="weather_info">
+            <span class="weather_icon"><img src="images/weather1.png"></span>
+          </div>
+          <div class="weather_info">
+            <span class="weather_c">기온 <span class="textcolor_1">- 14.0 ℃</span></span>
+            <span class="weather_c">미세먼지㎍/m³ <span  class="textcolor_1">나쁨</span></span>
+            <span class="weather_c">대기환경지수 <span class="textcolor_1">나쁨</span></span>
+          </div>
+        </div>
+      </div>
+      <div class="wrap">
+        <div class="lnb">
+          <ul class="lnb_list">
+            <li class="lnb_item">
+              <a href="#">아산소개</a>
+                <ul class="lnb_list2">
+                  <div class="list2_item">
+                    <li><a href="#">기본현황</a></li>
+                    <li><a href="#">국내외교류</a></li>
+                    <li><a href="#">홍보자료</a></li>
+                  </div>
+                </ul>
+            </li>
+            <li class="lnb_item">
+              <a href="#">정보공개</a>
+                <ul class="lnb_list2">
+                  <div class="list2_item">
+                    <li><a href="sub.html">정보공개</a></li>
+                    <li><a href="#">예산공개</a></li>
+                    <li><a href="#">정책실명제</a></li>
+                    <li><a href="#">통계</a></li>
+                  </div>
+                </ul>
+            </li>
+            <li class="lnb_item">
+              <a href="#">민원</a>
+                <ul class="lnb_list2">
+                  <div class="list2_item">
+                    <li><a href="#">민원실안내</a></li>
+                    <li><a href="#">온라인민원</a></li>
+                    <li><a href="#">종합민원안내</a></li>
+                    <li><a href="#">민원편람서식</a></li>
+                  </div>
+                </ul>
+            </li>
+            <li class="lnb_item">
+              <a href="#">시정</a>
+              <ul class="lnb_list2">
+                <div class="list2_item">
+                  <li><a href="#">민선8기</a></li>
+                  <li><a href="#">시정안내</a></li>
+                  <li><a href="#">시정소식</a></li>
+                  <li><a href="#">시정공고</a></li>
+                </div>
+              </ul>
+            </li>
+            <li class="lnb_item">
+              <a href="#">분야별 정보</a>
+              <ul class="lnb_list2">
+                <div class="list2_item">
+                  <li><a href="#">소식</a></li>
+                  <li><a href="#">복지</a></li>
+                  <li><a href="#">교육</a></li>
+                  <li><a href="#">교통</a></li>
+                  <li><a href="#">일자리</a></li>
+                  <li><a href="#">생활경제</a></li>
+                </div>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header> -->
+    <main class="login-main">
+      <div class="login-container">
+        <div class="login-logo"><a href="index.html"><img src="images/logo.png" alt="메인화면으로"></a></div>
+        <h1>로그인</h1>
+        <form class="login-form">
+          <div class="form_content">
+            <div class="form_list">
+              <div class="form_item"><input type="text" class="form_input" placeholder="아이디를 입력" autofocus required></div><hr>
+              <div class="form_item"><input type="password"  class="form_input" placeholder="비밀번호를 입력" required></div>
+            </div>
+          </div>
+          <div class="butt_wrap"><button class="login-butt" type="submit">로그인</button></div>
+        </form>
+        <div class="movelink ">
+          <span><a href="#"> 아이디 찾기</a></span><span><a href="#">비밀번호 찾기</a></span> <span><a href="signup.html">회원가입</span>
+        </div>
+      </div>
+    </main>
+
+    <!-- 푸터 --> 
+    <footer id="footer">
+      <div class="link">
+        <div class="wrap">
+          <ul class="link_list">
+            <li class="link_item"><a href="#">개인정보처리방침</a></li>
+            <li class="link_item"><a href="#">이용약관</a></li>
+            <li class="link_item"><a href="#">저작권정책</a></li>
+            <li class="link_item"><a href="#">시민의노래</a></li>
+            <li class="link_item"><a href="#">찾아오시는길</a></li>
+            <li class="link_item"><a href="#">배너광장</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_content">
+        <div class="info">
+          <p>(31512)충남 아산시 시민로 456 / 아산시 콜센터 : 1422-42</p>
+          <p>ⓒ ASAN-SI, ALL RIGHTS RESERVED.</p>
+        </div>
+        <div class="footer_logo">
+          <div class="wa"><a href="#"><img src="images/wa_mark.png"></a></div>
+          <div class="asanlogo"><img src="images/asan_mark.gif"></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

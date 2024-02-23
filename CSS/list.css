@@ -1,0 +1,132 @@
+#container {
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.visual_title{
+  font-size: 20pt;
+  font-weight: 800;
+  margin: 10px 0 20px 0;
+  width: 200px;
+  padding: 20px;
+  border-bottom: 2px black solid;
+}
+
+
+.sidemenu{
+  /* border:  1px solid #ccc; */
+  padding: 10px;
+  width: 300px;
+  height: 700px;
+  border-radius: 15px;
+  position: relative;
+  display: inline-block;
+  margin: 30px 10px 30px 10px;
+  /* float: left; */
+}
+
+.sidelist {
+  padding: 10px;
+  margin: 10px auto;
+  /* border: 1px solid blue; */
+  /* border-radius: 15px; */
+}
+
+.sideitem {
+  /* border: red 1px solid; */
+  /* border-collapse: collapse; */
+  margin: 10px;
+  padding: 10px;
+}
+
+
+
+
+.notice_title {
+  text-align: center;
+  margin: 30px auto 50px auto;
+
+}
+.sub_wrap {
+  width: 900px;
+  position: absolute;
+  display: inline-block;
+  margin: 30px 20px 30px 20px;
+  /* border: red 1px solid; */
+}
+.sub_news,.sub_news th,.sub_news td{
+  border:0
+}
+.sub_news a{
+  color:#383838;text-decoration:none
+}
+.sub_news{
+  width:100%;
+  border-bottom:1px solid #999;
+  color:#666;
+  font-size:12px;
+  table-layout:fixed
+}
+.sub_news caption{
+  display:none
+}
+.sub_news th{
+  padding:6px 0 8px;
+  border-top:solid 1px #999;
+  border-bottom:solid 1px #b2b2b2;
+  background-color:#f1f1f4;
+  color:#333;
+  font-weight:bold;
+  line-height:20px;
+  vertical-align:top
+}
+.sub_news td{
+  padding:10px 0 11px;
+  border-bottom:solid 1px #d2d2d2;
+  text-align:center;
+  line-height:18px;
+}
+.sub_news .date,.sub_news .hit, .sub_news .num{
+  padding:0;
+  font-size:11px;
+  line-height:normal
+}
+.sub_news .title{
+  text-align:left; 
+  padding-left:15px;
+  font-size:13px;
+  }
+.sub_news .title .pic, .sub_news .title .new, .sub_news .title .file{
+  margin:0 0 2px;
+  vertical-align:middle;
+  width:10px;
+  height:9px;
+}
+.buttons_wrap {
+  margin: 40px auto;
+  text-align: center;
+}
+.buttons_wrap .sec {
+  color: red;
+  border: red 1px solid;
+}
+.list_buttons{
+  border: 1px solid #ccc;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  font-size: 0.8em;
+  padding: 5px;
+}
+.list_buttons:hover{
+  color: #333;
+  border: #333 1px solid;
+}
+/* .sub_news .title a.comment{
+  padding:0;
+  background:none;
+  color:#f00;
+  font-size:12px;
+  font-weight:bold
+} */
